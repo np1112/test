@@ -4,7 +4,7 @@ from telegram.ext import Updater
 from telegram.ext import CommandHandler, CallbackQueryHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
-API_KEY = "5461119736:AAHDjJbgJ5SLJmsSW6uDDxX8Et96Wm5KffQ"
+API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 ############################### Bot ############################################
 def start(bot, update):
@@ -75,7 +75,7 @@ def third_menu_message():
     return 'Choose the submenu in third menu:'
 
 ############################# Handlers #########################################
-updater = Updater('5461119736:AAHDjJbgJ5SLJmsSW6uDDxX8Et96Wm5KffQ', use_context=True)
+updater = Updater('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', use_context=True)
 updater.dispatcher.add_handler(CommandHandler('start', start))
 updater.dispatcher.add_handler(CallbackQueryHandler(main_menu, pattern='main'))
 updater.dispatcher.add_handler(CallbackQueryHandler(first_menu, pattern='m1'))
