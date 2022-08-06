@@ -44,7 +44,7 @@ def main_menu_keyboard():
   return InlineKeyboardMarkup(keyboard)
 
 def first_menu_keyboard():
-  keyboard = [[InlineKeyboardButton('WEED', callback_data='m1_1')],
+  keyboard = [[InlineKeyboardButton('Submenu 1-1', callback_data='m1_1')],
               [InlineKeyboardButton('Submenu 1-2', callback_data='m1_2')],
               [InlineKeyboardButton('Main menu', callback_data='main')]]
   return InlineKeyboardMarkup(keyboard)
